@@ -14,3 +14,18 @@ html.is-leaving .transition-fade {
 	opacity: 0;
 	/* transform: translateX(-100vw); */
 }
+
+.scale-in-center {
+	animation: scale-in-center 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s both;
+}
+
+@keyframes scale-in-center {
+	0% {
+		transform: scale(0);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}

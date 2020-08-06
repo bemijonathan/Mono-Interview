@@ -10,6 +10,8 @@ body {
 main > div {
 	max-width: 700px;
 	margin: auto;
+	overflow-x: hidden;
+	position: relative;
 }
 
 [logo] img {
@@ -197,7 +199,7 @@ form {
 .link {
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 140px;
+	margin-top: 70px;
 	padding: 12px;
 	width: 166px;
 	text-align: center;
@@ -215,7 +217,7 @@ form {
 }
 
 #link .powered {
-	margin-top: 120px;
+	margin-top: 10vh;
 }
 
 #link .powered button {
@@ -228,14 +230,11 @@ form {
 	text-align: center;
 }
 .box-1 {
-	/* Rectangle Copy */
-
 	position: absolute;
 	width: 100%;
 	height: 265px;
 	left: 80vw;
 	top: -6px;
-
 	background: #ffffff;
 	mix-blend-mode: normal;
 	opacity: 0.4;
@@ -244,14 +243,11 @@ form {
 }
 
 .box-2 {
-	/* Rectangle Copy 3 */
-
 	position: absolute;
 	width: 100%;
 	height: 265px;
 	right: 84vw;
 	top: -57px;
-
 	background: #ffffff;
 	mix-blend-mode: normal;
 	opacity: 0.4;
@@ -260,14 +256,11 @@ form {
 }
 
 .box-3 {
-	/* Rectangle Copy 4 */
-
 	position: absolute;
 	width: 193px;
 	height: 265px;
 	right: 94vw;
 	top: 229px;
-
 	background: #ffffff;
 	mix-blend-mode: normal;
 	opacity: 0.4;
@@ -276,17 +269,29 @@ form {
 }
 
 .box-4 {
-	/* Rectangle Copy 2 */
-
 	position: absolute;
 	width: 100%;
 	height: 265px;
 	left: 96vw;
 	top: 346px;
-
 	background: #ffffff;
 	mix-blend-mode: normal;
 	opacity: 0.4;
 	box-shadow: 0px 12px 53px rgba(0, 0, 0, 0.0876038);
 	border-radius: 25px;
+}
+
+.linked-images {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .box-container {
+	position: relative;
+	overflow: hidden; */
+/* } */
+
+.box-container div {
+	z-index: 8;
 }
