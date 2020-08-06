@@ -3,20 +3,53 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Mono Select Instituition</title>
+		<!-- <script defer src="./node_modules/swup/dist/swup.min.js"></script> -->
+		<script defer src="./js/index.js"></script>
+		<title>Select Mono</title>
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/animation.css" />
 	</head>
 	<body>
-		<div class="container">
-			<div class="logo">
-				<img src="./assets/logo.png" />
+		<main id="swup" class="transition-fade">
+			<div class="container">
+				<a href="/" class="back">
+					<img src="./assets/back.svg" />
+				</a>
+
+				<h1 id="title">
+					Select a finacial institution 🏦
+				</h1>
+				<div class="search-holder">
+					<img src="./assets/search 1.svg" class="search-icon" />
+					<input
+						type="search"
+						class="search"
+						placeholder="Search banks, fintechs etc"
+					/>
+				</div>
+				<div class="grid-layout">
+					<a href="/gtb.html">
+						<div>
+							<img src="./assets/Guaranty Trust Bank Logo.svg" />
+						</div>
+					</a>
+					<a href="/gtb.html">
+						<div>
+							<img src="./assets/polaris.svg" />
+						</div>
+					</a>
+					<a href="/gtb.html">
+						<div>
+							<img src="./assets/ccowryrise.svg" />
+						</div>
+					</a>
+					<a href="/gtb.html">
+						<div>
+							<img src="./assets/piggy.png" />
+						</div>
+					</a>
+				</div>
 			</div>
-			<h1 id="title">
-				Muney links all your finance apps
-			</h1>
-			<p class="subtitle">
-				Click “Select Account” to continue
-			</p>
-		</div>
+		</main>
 	</body>
 </html>
