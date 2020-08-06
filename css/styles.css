@@ -1,0 +1,82 @@
+@import "./common.css";
+
+body {
+	background-color: var(--main-bg-color);
+	font-family: var(--main-font);
+}
+
+[logo] img {
+	width: 80px;
+}
+
+#title {
+	margin-top: 22px;
+	font-weight: bolder;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 41px;
+}
+
+.subtitle {
+	margin-top: 22px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #101326;
+	opacity: 0.5;
+}
+
+.features {
+	margin-top: 53px;
+	min-width: 311px;
+	background: #e0fbed;
+	border-radius: 24px;
+	padding: 32px 18px;
+}
+
+.features ul {
+	/* list-style-image: url("../assets/Checkmark.png"); */
+}
+
+.features li {
+	display: flex;
+	margin-bottom: 24px;
+	align-items: center;
+}
+.features img {
+	margin-right: 8px;
+}
+
+.features p:nth-of-type(2) {
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.features p:first-of-type {
+	font-size: 12px;
+	margin-bottom: 6px;
+	color: #101326;
+	opacity: 0.4;
+}
+
+.select_account {
+	margin-top: 34px;
+	background: #68f3a8;
+	border-radius: 24px;
+	width: 100%;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 20px 18px;
+}
+
+.powered {
+	text-align: center;
+	margin-top: 65px;
+}
+
+.powered button {
+	background: #101326;
+	padding: 16px 24px;
+	border-radius: 19.2px;
+}
